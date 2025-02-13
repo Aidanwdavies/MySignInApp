@@ -7,12 +7,12 @@ const CityScreen = ({ city, link }) => {
     Calgary: {
       image: require("../assets/calgary.jpg"),
       description:
-        "Calgary is a vibrant city in Alberta, known for its world-famous Calgary Stampede, stunning Rocky Mountain views, and strong economy driven by oil and gas. The city boasts a mix of modern skyscrapers and historic buildings, with plenty of parks, rivers, and outdoor activities. It's a major hub for winter sports and outdoor adventures, making it a fantastic place for both work and play.",
+        "Calgary, the heart of Alberta, blends urban energy with outdoor adventure, set against the stunning Canadian Rockies. Known for the Calgary Stampede, modern landmarks, and a thriving arts and sports scene, it offers a vibrant lifestyle. The Bow River, scenic pathways, and proximity to Banff National Park make it a haven for nature lovers. With career opportunities, cultural diversity, and a welcoming community, Calgary is the perfect mix of city excitement and small-town charm. ",
     },
     Edmonton: {
       image: require("../assets/edmonton.jpg"),
       description:
-        "Edmonton, the capital of Alberta, is famous for its extensive river valley park system, lively arts and culture scene, and as home to the largest shopping mall in North America, West Edmonton Mall. The city experiences long summer days and cold winters, making it a great place for year-round activities. It's also a center for research, education, and festivals, earning the nickname 'Festival City.'",
+        "Edmonton, Alberta’s vibrant capital, is a city of festivals, culture, and endless adventure. Home to West Edmonton Mall, the largest in North America, and the stunning River Valley, the city offers a unique blend of urban excitement and natural beauty. Known as Canada’s Festival City, Edmonton hosts year-round events, including the Fringe Festival and K-Days, celebrating arts, music, and heritage. With a booming economy, diverse communities, and a passion for sports—cheering on the Edmonton Oilers—Edmonton is a dynamic, welcoming city that thrives on creativity, innovation, and northern charm.",
     },
   };
 
@@ -37,28 +37,28 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     padding: 20,
-    backgroundColor: "#f0f8ff", // Light blue background for a clean look
+    backgroundColor: "#f0f8ff", 
   },
   title: {
     fontSize: 28,
     fontWeight: "bold",
     marginBottom: 15,
-    color: "#1e3a8a", // Dark blue for better readability
+    color: "#1e3a8a", 
   },
   image: {
     width: 320,
     height: 200,
     marginBottom: 15,
-    borderWidth: 5, // Blue border
+    borderWidth: 5,
     borderColor: "#1e90ff",
-    borderRadius: 10, // Rounded edges
+    borderRadius: 10,
   },
   description: {
     fontSize: 16,
     textAlign: "center",
     paddingHorizontal: 15,
     color: "#333",
-    lineHeight: 22, // Spacing for better readability
+    lineHeight: 22, 
     marginBottom: 20,
   },
   link: {
